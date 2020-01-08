@@ -1,7 +1,7 @@
 // Package lexer provides the lexer for Monkey
 package lexer
 
-import "monkey/token"
+import "github.com/yngtodd/monkey/token"
 
 // A Lexer holds our text input, positions, and current character.
 type Lexer struct {
