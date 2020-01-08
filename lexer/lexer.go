@@ -19,7 +19,7 @@ func New(input string) *Lexer {
 
 // readChar reads the next character in our input 
 // and increments stores the next position to be read.
-func (l *lexer) readChar() {
+func (l *Lexer) readChar() {
     if l.readPosition >= len(l.input) {
         l.ch = 0
     } else {
