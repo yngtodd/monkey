@@ -2,7 +2,6 @@ package lexer
 
 import (
     "testing"
-    "github.com/yngtodd/monkey/lexer"
     "github.com/yngtodd/monkey/token"
 )
 
