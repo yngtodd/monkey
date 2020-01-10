@@ -30,7 +30,7 @@ func (l *Lexer) NextToken() token.Token {
 	case '(':
 	    tok = newToken(token.LPAREN, l.ch)
 	case ')':
-	    tok = newToken(token.RPAREN, l.ch)
+        tok = newToken(token.RPAREN, l.ch)
 	case ',':
 	    tok = newToken(token.COMMA, l.ch)
 	case '+':
